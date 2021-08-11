@@ -1,0 +1,70 @@
+/* 가운데 정렬 속성 */
+.align-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 필드 영역 */
+fieldset {
+    width: fit-content;
+    text-align: center;
+    top: 20%
+}
+
+/** 필드 세부 영역
+  * - legend : 제목
+  * - table : 분/초/센티초 테이블
+  * - input#startBtn : 시작 버튼
+  * - div#btnBox : 나머지 버튼 박스
+  */
+legend {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid #444444;
+}
+
+table {
+    width: 100%;
+    margin-top: 7px;
+    border-collapse: collapse;
+}
+
+th {
+    width: 100px;
+    font-size: 30px;
+}
+
+td {
+    font-size: 43px;
+}
+
+input {
+    font-size: 23px;
+    padding: 10px 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#startBtn {
+    width: 100%;
+}
+
+#btnBox {
+    display: none;
+}
+
+#btnBox>input {
+    width: 47%;
+}
+
+#stopBtn {
+    float: left;
+}
+
+#resetBtn {
+    float: right;
+}
